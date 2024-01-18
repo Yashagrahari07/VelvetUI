@@ -1,0 +1,11 @@
+/* CSS Variables */
+
+:root {
+    --primary-color: #373a78;
+    --secondary-color: #0099ff;
+    --nav-color: #261f3d;
+    --light-color: #fff;
+    --link-hover-color: #1E90FF;
+    --font-family: 'Salsa', cursive;
+  }
+  
