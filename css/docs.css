@@ -73,3 +73,9 @@
   background-color: var(--heading-color);
 }
 
+/* Responsive SideBar */
+@media(max-width:1097px){
+  .sidebar{
+    display: none;
+  }
+}
