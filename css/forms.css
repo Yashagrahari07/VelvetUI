@@ -1,0 +1,117 @@
+@import 'variables.css';
+
+/* SignUp Form */
+.signup-card {
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 425px;
+    background-color: #ffffff;
+    padding: 10px 30px;
+}
+
+.signup-card_title {
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.signup-card_title h1 {
+    font-size: 26px;
+}
+
+.signup-card_title span {
+    font-size: 20px;
+}
+
+.signup-form input {
+    margin: 10px 0;
+    width: 100%;
+    background-color: #e2e2e2;
+    border: none;
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+}
+
+.signup-form button {
+    background-color: #4796ff;
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 15px;
+    width: 100%;
+}
+
+.signup-card_terms {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.signup-card_terms input[type="checkbox"] {
+    background-color: #e2e2e2;
+}
+
+.signup-card_terms span {
+    margin: 5px;
+    font-size: 13px;
+    color: black;
+}
+
+.signup-card a {
+    color: #4796ff;
+    text-decoration: none;
+}
+
+/* Contact Us Form */
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 480px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.contact-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #2980b9;
+}

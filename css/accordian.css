@@ -1,0 +1,46 @@
+@import 'variables.css';
+
+.accordion {
+    margin: 0px 50px;
+    margin-top: 30px;
+}
+
+.accordion-item {
+    border: 1px solid var(--light-color);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    padding: 15px;
+    background-color: var(--drk-color);
+    color: var(--light-color);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: var(--light-color);
+    display: none;
+    color: var(--drk-color);
+}
+
+.accordion-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--light-color);
+    margin-left: auto;
+    transition: transform 0.3s ease;
+}
+
+.accordion-item.active .accordion-content {
+    display: block;
+}
+
+.accordion-item.active .accordion-icon {
+    transform: rotate(180deg);
+}

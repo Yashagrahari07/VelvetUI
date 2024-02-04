@@ -5,7 +5,20 @@
     --secondary-color: #0099ff;
     --nav-color: #261f3d;
     --light-color: #fff;
+    --dark-color: #000;
+    --heading-color: #646465;
     --link-hover-color: #1E90FF;
     --font-family: 'Salsa', cursive;
+    --h1-color: #868686;
+
+    --pri-color: #0099ff;
+    --sec-color: #475569;
+    --success-color: #115e59;
+    --danger-color: #7f1d1d;
+    --warning-color: #92400e;
+    --info-color: #6b21a8;
+    --lgt-color: #60a5fa;
+    --drk-color: #27272a;
+    --lnk-color: #b0bdea;
   }
   
