@@ -1,0 +1,44 @@
+@import 'variables.css';
+
+.toggle-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--info-color);
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.toggle-container.dark {
+    background-color: var(--sec-color);
+}
+
+.toggle {
+    position: relative;
+    height: 80px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: var(--light-color);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.toggle::before {
+    content: "";
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: var(--info-color);
+    border-radius: 50%;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle.active::before {
+    background-color: var(--sec-color);
+    left: calc(100% - 70px - 10px);
+}

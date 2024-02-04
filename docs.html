@@ -22,7 +22,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
+          <header>
             <div class="container"> 
                 <nav class="navbar">
                     <div class="logo">
@@ -59,7 +59,7 @@
                   <a href="#install-docs">
                       <li>Installation</li>
                   </a>
-                  <a href="#devices-docs">
+                  <a href="#browse-docs">
                       <li>Browsers Support</li>
                   </a>
                 </ul>
@@ -68,43 +68,431 @@
                     <a href="#avatar-docs">
                         <li>Avatar</li>
                     </a>
-                    <a href="#badge-docs">
-                        <li>Badge</li>
-                    </a>
                     <a href="#button-docs">
                         <li>Button</li>
                     </a>
                     <a href="#card-docs">
                         <li>Card</li>
                     </a>
-                    <a href="#img-docs">
-                        <li>Image</li>
+                    <a href="#toggle-docs">
+                        <li>Toggle Theme</li>
                     </a>
-                    <a href="#input-docs">
-                        <li>Input</li>
+                    <a href="#forms-docs">
+                        <li>Forms</li>
                     </a>
-                    <a href="#progress-bar-docs">
-                        <li>Text Utility</li>
+                    <a href="#accordian-docs">
+                        <li>Accordian</li>
                     </a>
                     <a href="#nav-docs">
-                        <li>Navigation</li>
+                        <li>Navigation Bar</li>
                     </a>
-                    <a href="#list-docs">
-                        <li>List</li>
+                    <a href="#carousel-docs">
+                        <li>Carousel</li>
                     </a>
-                    <a href="#modal-docs">
-                        <li>Modal</li>
+                    <a href="#">
+                      <li></li>
                     </a>
-                    <a href="#snakbar-docs">
-                        <li>SnakBar</li>
-                    </a>
-                    <a href="#rating-docs">
-                        <li>Rating</li>
+                    <a href="#">
+                      <li></li>
                     </a>
                 </ul>
               </span>
             </div>
-            
+            <div class="main-section">
+              <div id="intro-docs">
+                <h1 class="heading1">Welcome to VelvetUI</h1>
+                <div class="heading3">Introducing VelvetUI, your go-to CSS component library for adding a touch of elegance and style to your web projects.
+                  It's like a toolkit of design elements that make your website look polished and feel smooth.
+                  From buttons to forms, VelvetUI provides easy-to-use components that bring a modern and classy vibe to your interface.
+                  Whether you're building a business site or a cool app, VelvetUI helps you create a sleek and consistent look across different devices.
+                  Elevate your web design effortlessly with VelvetUI's simple yet sophisticated style.</div>
+                <div class="intro-container">
+                  <div class="heading3">Some Key Characteristics of VelvetUI effectively:
+                    <ul>
+                      <li>Stylish Components: Ready-to-use, fashionable design elements for buttons and forms.</li>
+                      <li>Consistent Look: Creates a polished, uniform design for a cohesive appearance across your website or app.</li>
+                      <li>Easy Integration: Simple for developers to seamlessly incorporate VelvetUI components into their projects.</li>
+                      <li>Adaptable to Devices: Ensures a smooth user experience by adjusting components seamlessly to different screen sizes.</li>
+                      <li>Modern and Classy: Aligns with contemporary design trends, effortlessly adding an elegant touch to your web interfaces.</li>
+                    </ul>
+                  </div>
+                  <div class="intro-img">
+                    <img src="./assets/slider.svg">
+                  </div>
+                </div>
+              </div>
+              <div id="install-docs">
+                <h3 class="heading2">Installation Guide: How to install?</h3>
+                <div class="heading3">To incorporate the provided CDN links into your web projects, you need to include the following HTML code within the &lt;head&gt; or just before the closing &lt;/body&gt; tags of your HTML document.
+                   The CSS file should be linked in the &lt;head&gt; section to ensure proper styling, while the JS file can be added at the bottom of the page for optimized performance.</div>
+                <div class="code">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=834.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=135%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fvelvetui.netlify.app%252Fcss%252Fstyle.css%2522%253E%250A%253Cscript%2520src%253D%2522https%253A%252F%252Fvelvetui.netlify.app%252Fjs%252Fapp.js%2522%253E%253C%252Fscript%253E"
+                    style="width: 834px; height: 123px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+              <div id="browse-docs">
+                <h3 class="heading2">Browsers Support</h3>
+                <div class="heading3">VelvetUI is designed to provide a seamless and stylish user experience across modern web browsers.
+                  The library is optimized for compatibility with the latest versions of popular browsers.
+                  <div>Below is a list of supported browsers:</div>
+                  <ul>
+                    <li>Google Chrome</li>
+                    <li>Mozilla Firefox</li>
+                    <li>Microsoft Edge</li>
+                    <li>Apple Safari</li>
+                    <li>Many More....</li>
+                  </ul>
+                  <div>While VelvetUI strives to maintain compatibility with the specified browsers, it's recommended to use the latest browser versions for optimal performance and to leverage the latest web standards and features.
+                     Users accessing our website with outdated browsers may experience a degradation in visual and interactive elements.</div>
+                </div>
+              </div>
+              <div id="avatar-docs">
+                <h3 class="heading2">Avatar</h3>
+                <div class="heading3">An avatar, resembling a digital portrait, serves as a friendly profile picture, adding a personal touch whether displayed on a user's profile page or within the navigation bar for quick identification.</div>
+                <div class="heading3">Choose from various sizes for your avatars by using the "avatar-container" class. 
+                  Easily customize the size with classes like "avatar-large", "avatar-medium" or "avatar-small".
+                  Simply include the desired size class along with the main container class, such as "avatar-container avatar-medium" 
+                  and use any image for your avatar.</div>
+                  <div class="avt-container">
+                    <div class="avt-img">
+                      <div class="avatar-container avatar-large">
+                        <img src="./assets/ben10.jpeg" alt="avatar-large">
+                      </div>
+                      <div class="avatar-container avatar-medium">
+                        <img src="./assets/tom.jpeg" alt="avatar-medium">
+                      </div>
+                      <div class="avatar-container avatar-small">
+                        <img src="./assets/jerry.jpg" alt="avatar-small">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="code code2">
+                    <iframe
+                      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=135%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avatar-container%2520avatar-large%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fben10.jpeg%2522%2520alt%253D%2522avatar-large%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-container%2520avatar-medium%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Ftom.jpeg%2522%2520alt%253D%2522avatar-medium%2522%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522avatar-container%2520avatar-small%2522%253E%250A%2520%2520%2520%253Cimg%2520src%253D%2522.%252Fassets%252Fjerry.jpg%2522%2520alt%253D%2522avatar-small%2522%253E%250A%253C%252Fdiv%253E"
+                      style="width: 800px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                      sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </div>
+              </div>
+              <div id="button-docs">
+                <h3 class="heading2">Buttons</h3>
+                <div class="heading3">VelvetUI's buttons are designed for simplicity and style.
+                  Whether you need a primary call-to-action or a subtle secondary button, our collection offers a clean and modern buttons.
+                  Easy to integrate and customize, VelvetUI buttons effortlessly elevate the visual appeal of your website or application,
+                  ensuring a polished and user-friendly experience.</div>
+                <div class="heading3">
+                  We have two categories of buttons:
+                  <ol>
+                    <li>Solid Buttons</li>
+                    <li>Outlined Buttons</li>
+                  </ol>
+                </div>
+                <div class="heading4">Solid Buttons</div>
+                <div class="heading3">VelvetUI's solid buttons offer a straightforward and sleek design for your web elements. Easily distinguishable by classes like btn-primary or btn-warning,
+                  these buttons provide a clean and vibrant look for various actions. Whether signaling success, danger, or a primary call-to-action,
+                  VelvetUI's solid buttons are effortlessly integrated into your project with a simple class application. 
+                  Elevate your user interface with these polished and visually appealing buttons, making interactions both intuitive and stylish.</div>
+                <div class="solid-btn">
+                  <a href="#"><button class="btn btn-primary">Primary</button></a>
+                  <a href="#"><button class="btn btn-secondary">Secondary</button></a>
+                  <a href="#"><button class="btn btn-success">Success</button></a>
+                  <a href="#"><button class="btn btn-danger">Danger</button></a>
+                  <a href="#"><button class="btn btn-warning">Warning</button></a>
+                  <a href="#"><button class="btn btn-info">Info</button></a>
+                  <a href="#"><button class="btn btn-light">Light</button></a>
+                  <a href="#"><button class="btn btn-dark">Dark</button></a>
+                  <a href="#"><button class="btn btn-link">Link</button></a>
+                </div>
+                <div class="code code2">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=834.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=135%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-danger%2522%253EDanger%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-info%2522%253EInfo%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-light%2522%253ELight%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-dark%2522%253EDark%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253ELink%253C%252Fbutton%253E%253C%252Fa%253E"
+                    style="width: 834px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+                <div class="heading4">Outlined Buttons</div>
+                <div class="heading3">VelvetUI's outlined buttons offer a sleek and unobtrusive design. With a subtle border and a choice of colors,
+                  these buttons provide a clean and modern look to your web elements. Whether it's a primary call-to-action or a secondary option,
+                  VelvetUI's outlined buttons maintain a simple yet stylish appearance, seamlessly integrating into your website or application for a polished user experience.</div>
+                <div class="solid-btn">
+                  <a href="#"><button class="btn btn-outlined-primary">Primary</button></a>
+                  <a href="#"><button class="btn btn-outlined-secondary">Secondary</button></a>
+                  <a href="#"><button class="btn btn-outlined-success">Success</button></a>
+                  <a href="#"><button class="btn btn-outlined-danger">Danger</button></a>
+                  <a href="#"><button class="btn btn-outlined-warning">Warning</button></a>
+                  <a href="#"><button class="btn btn-outlined-info">Info</button></a>
+                  <a href="#"><button class="btn btn-outlined-light">Light</button></a>
+                  <a href="#"><button class="btn btn-outlined-dark">Dark</button></a>
+                  <a href="#"><button class="btn btn-outlined-link">Link</button></a>
+                </div>
+                <div class="code code2">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=864&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=135%25&si=false&es=2x&wm=false&code=%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-primary%2522%253EPrimary%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-secondary%2522%253ESecondary%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-success%2522%253ESuccess%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-danger%2522%253EDanger%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-warning%2522%253EWarning%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-info%2522%253EInfo%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-light%2522%253ELight%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-dark%2522%253EDark%253C%252Fbutton%253E%253C%252Fa%253E%250A%253Ca%2520href%253D%2522%2523%2522%253E%253Cbutton%2520class%253D%2522btn%2520btn-outlined-link%2522%253ELink%253C%252Fbutton%253E%253C%252Fa%253E"
+                    style="width: 864px; height: 276px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+              </div>
+              <div id="card-docs">
+                <h3 class="heading2">Cards</h3>
+                <div class="heading3">Cards are modular UI components used to present information in a visually structured manner,
+                  commonly employed for items like articles, products, or user profiles.</div>
+                <div class="heading3">We offer two types of cards: 
+                  <ol>
+                    <li>A clean and stylish card design with an image, title,
+                      and description</li>
+                    <li>An Interactive flip cards showcasing a web developer's profile, including a flip effect
+                      to reveal contact information and social links, providing a dynamic and engaging presentation</li>
+                  </ol>
+                </div>
+                <div class="card-container">
+                  <div class="card">
+                    <img src="https://velvetui.netlify.app/assets/programmer.svg" alt="Card Image">
+                    <div class="card-content">
+                      <h2>Card Title</h2>
+                      <p>This is a card with clean styling and a subtle hover effect.</p>
+                    </div>
+                    <div class="card-action">
+                      <p>Author: Yash Agrahari</p>
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                  <!--Flip Card-->
+                  <div class="flip-cards">
+                    <div class="cards">
+                      <div class="cards-inner">
+                        <div class="front">
+                          <div class="profile">
+                            <img src="./assets/yash.jpeg" alt="Profile Picture">
+                          </div>
+                          <h2>Yash Agrahari</h2>
+                          <p>Web Developer</p>
+                          <p>Passionate about coding and creating seamless user experiences. Enthusiastic learner and team player.</p>
+                        </div>
+                        <div class="back">
+                          <h2>Contact Information</h2>
+                          <p>Email: agrahari.yash07@gmail.com</p>
+                          <p>Phone: 7457929239</p>
+                          <div class="social">
+                            <a href="https://github.com/Yashagrahari07" target="_blank">GitHub</a>
+                            <a href="https://www.linkedin.com/in/yashagrahari/" target="_blank">LinkedIn</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="code code2">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=883.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvelvetui.netlify.app%252Fassets%252Fprogrammer.svg%2522%2520alt%253D%2522Card%2520Image%2522%253E%250A%2509%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2509%2509%253Ch2%253ECard%2520Title%253C%252Fh2%253E%250A%2520%2520%2520%2520%2509%253Cp%253EThis%2520is%2520a%2520card%2520with%2520clean%2520styling%2520and%2520a%2520subtle%2520hover%2520effect.%253C%252Fp%253E%250A%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-action%2522%253E%250A%2520%2520%2520%2520%2509%253Cp%253EAuthor%253A%2520Yash%2520Agrahari%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ERead%2520More%253C%252Fa%253E%250A%2509%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253C%21--Flip%2520Cards--%253E%250A%253Cdiv%2520class%253D%2522flip-cards%2522%253E%250A%2509%253Cdiv%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522cards-inner%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522front%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cdiv%2520class%253D%2522profile%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Cimg%2520src%253D%2522https%253A%252F%252Fvelvetui.netlify.app%252Fassets%252Fyash.jpeg%2522%2520alt%253D%2522Profile%2520Picture%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EYash%2520Agrahari%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EWeb%2520Developer%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EPassionate%2520about%2520coding%2520and%2520creating%2520seamless%2520user%2520experiences.%2520Enthusiastic%2520learner%2520and%2520team%2520player.%253C%252Fp%253E%250A%2509%2509%2509%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522back%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EContact%2520Information%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EEmail%253A%2520agrahari.yash07%2540gmail.com%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EPhone%253A%25207457929239%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522social%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2509%253Ca%2520href%253D%2522https%253A%252F%252Fgithub.com%252FYashagrahari07%2522%2520target%253D%2522_blank%2522%253EGitHub%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fwww.linkedin.com%252Fin%252Fyashagrahari%252F%2522%2520target%253D%2522_blank%2522%253ELinkedIn%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style="width: 883px; height: 746px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+              </div>
+              <div id="toggle-docs">
+                <h3 class="heading2">Toogle Themes</h3>
+                <div class="heading3">Introducing our Toggle Themes component – a powerful feature designed to elevate your user 
+                  interface experience within our CSS component library. With the Toggle Themes component, users can effortlessly
+                  transition between various color themes, adding a dynamic and personalized touch to their browsing experience.
+                  <div class="toggle-container">
+                    <div class="toggle"></div> 
+                  </div>
+                  <div class="code code2">
+                    <iframe
+                      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=793.5&ds=true&dsyoff=0px&dsblur=14px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toggle-container%2522%253E%2520%253Cdiv%2520class%253D%2522toggle%2522%253E%253C%252Fdiv%253E%2520%253C%252Fdiv%253E%250A"
+                      style="width: 794px; height: 111px; border:0; transform: scale(1); overflow:hidden;"
+                      sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </div>
+              </div>
+              <div id="forms-docs">
+                <h3 class="heading2">Forms</h3>
+                <div class="heading3">Streamline user interactions with our Form Component – a versatile, user-friendly solution for
+                  effortless integration of stylish and efficient forms into your web applications. Simplify the collection of user
+                  input and enhance the overall user experience with our clean and intuitive design.</div>
+                  <div class="heading3">
+                    We have two Forms:
+                    <ol>
+                      <li>SignUp Form</li>
+                      <li>Contact US Form</li>
+                    </ol>
+                  </div>
+                  <div class="heading4">SignUp Form</div>
+                  <div class="heading3">Sign Form Component, combining sleek design with seamless functionality for a user-friendly sign-in experience. 
+                    Effortlessly integrate this component to elevate the aesthetic and usability of your authentication processes.
+                    <div class="avt-img">
+                      <div class="signup-card">
+                        <div class="signup-card_title">
+                          <h1>Create Account</h1>
+                          <span>Already have an account? <a href="login">Sign In</a></span>
+                        </div>
+                        <div class="signup-form">
+                          <form action="/register" method="post">
+                            <input type="text" name="username" id="username" placeholder="Username" class="signup-input" />
+                            <input type="email" name="email" placeholder="Email" id="email" class="signup-input" />
+                            <input type="password" name="password" placeholder="Password" id="password" class="signup-input" />
+                            <button class="signup-button">Sign Up</button>
+                          </form>
+                        </div>
+                        <div class="signup-card_terms">
+                          <input type="checkbox" name="" id="terms" class="signup-checkbox"> <span>I have read and agree to the <a href="" class="signup-link">Terms of Service</a></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="code code2">
+                    <iframe
+                      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=680&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avt-img%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522signup-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522signup-card_title%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253ECreate%2520Account%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EAlready%2520have%2520an%2520account%253F%2520%253Ca%2520href%253D%2522login%2522%253ESign%2520In%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522signup-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cform%2520action%253D%2522%252Fregister%2522%2520method%253D%2522post%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520name%253D%2522username%2522%2520id%253D%2522username%2522%2520placeholder%253D%2522Username%2522%2520class%253D%2522signup-input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520name%253D%2522email%2522%2520placeholder%253D%2522Email%2522%2520id%253D%2522email%2522%2520class%253D%2522signup-input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522password%2522%2520name%253D%2522password%2522%2520placeholder%253D%2522Password%2522%2520id%253D%2522password%2522%2520class%253D%2522signup-input%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522signup-button%2522%253ESign%2520Up%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fform%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522signup-card_terms%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522checkbox%2522%2520name%253D%2522%2522%2520id%253D%2522terms%2522%2520class%253D%2522signup-checkbox%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%253EI%2520have%2520read%2520and%2520agree%2520to%2520the%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2522%2520class%253D%2522signup-link%2522%253ETerms%2520of%2520Service%253C%252Fa%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                      style="width: 990px; height: 466px; border:0; transform: scale(1); overflow:hidden;"
+                      sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </div>
+                  <div class="heading4">Contact Us Form</div>
+                  <div class="heading3">Our Contact Us Form Component simplifies user communication, offering a straightforward and
+                    user-friendly interface for easy interactions and feedback on your website.
+                    <div class="avt-img">
+                      <div class="contact-form">
+                        <h2>Contact Us</h2>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <button type="submit">Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="code code2">
+                    <iframe
+                      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=827.25&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522avt-img%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522contact-form%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EContact%2520Us%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522name%2522%253EName%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520id%253D%2522name%2522%2520name%253D%2522name%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522email%2522%253EEmail%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522email%2522%2520id%253D%2522email%2522%2520name%253D%2522email%2522%2520required%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Clabel%2520for%253D%2522message%2522%253EMessage%253A%253C%252Flabel%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctextarea%2520id%253D%2522message%2522%2520name%253D%2522message%2522%2520rows%253D%25224%2522%2520required%253E%253C%252Ftextarea%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522submit%2522%253ESubmit%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                      style="width: 827px; height: 280px; border:0; transform: scale(1); overflow:hidden;"
+                      sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </div>
+              </div>
+              <div id="accordian-docs">
+                <h3 class="heading2">Accordian</h3>
+                <div class="heading3">Introducing VelvetUI's responsive accordion component—effortlessly organize and display content with collapsible sections. Tailored to adapt seamlessly
+                  to varying container sizes, the accordion ensures a sleek and space-efficient user experience.
+                  <div class="accordion">
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            Section 1
+                            <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.5l6-6-1.41-1.41L12 12.67l-4.59-4.58L6 9.5l6 6z"/></svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Content for Section 1 goes here.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            Section 2
+                            <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8.5l6 6-1.41 1.41L12 11.33 7.41 15.92 6 14.5l6-6z"/></svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Content for Section 2 goes here.</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <div class="accordion-header">
+                            Section 3
+                            <svg class="accordion-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 15.5l6-6-1.41-1.41L12 12.67l-4.59-4.58L6 9.5l6 6z"/></svg>
+                        </div>
+                        <div class="accordion-content">
+                            <p>Content for Section 3 goes here.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="code code2">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=882.5&ds=true&dsyoff=0px&dsblur=14px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522accordion%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522accordion-item%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522accordion-header%2522%253ESection%25201%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522accordion-icon%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%252024%252024%2522%253E%250A%2520%2520%2509%2509%253Cpath%2520d%253D%2522M12%252015.5l6-6-1.41-1.41L12%252012.67l-4.59-4.58L6%25209.5l6%25206z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522accordion-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EContent%2520for%2520Section%25201%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522accordion-item%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522accordion-header%2522%253ESection%25202%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522accordion-icon%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%252024%252024%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M12%25208.5l6%25206-1.41%25201.41L12%252011.33%25207.41%252015.92%25206%252014.5l6-6z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522accordion-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EContent%2520for%2520Section%25202%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522accordion-item%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522accordion-header%2522%253ESection%25203%250A%2520%2520%2520%2520%2520%2520%253Csvg%2520class%253D%2522accordion-icon%2522%2520xmlns%253D%2522http%253A%252F%252Fwww.w3.org%252F2000%252Fsvg%2522%2520viewBox%253D%25220%25200%252024%252024%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cpath%2520d%253D%2522M12%252015.5l6-6-1.41-1.41L12%252012.67l-4.59-4.58L6%25209.5l6%25206z%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fsvg%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522accordion-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%253EContent%2520for%2520Section%25203%2520goes%2520here.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 883px; height: 671px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+              </div>
+              <div id="nav-docs">
+                <h3 class="heading2">Navigation Bar</h3>
+                <div class="heading3">The VelvetUI navbar is a user-friendly navigation bar designed for simplicity and effectiveness.
+                  Placed at the top of webpages, it offers easy access to essential links, ensuring a streamlined and intuitive navigation
+                  experience for website visitors.</div>
+                <div class="heading3">VelvetUI's navbar seamlessly adapts to various screen sizes, providing a responsive and consistent navigation experience across devices.
+                  Whether viewed on desktops, tablets, or mobile devices, the navbar ensures optimal functionality.</div>
+                <div class="navigation">
+                  <header>
+                    <div class="container"> 
+                        <nav class="navbar">
+                            <div class="logo">
+                                <img src="./assets/logo.png" alt="Logo">
+                                <p>VELVETUI</p>
+                            </div>
+                          <ul class="nav-menu">
+                            <li class="nav-item">
+                              <a href="./index.html" class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="./docs.html" class="nav-link">Documentation</a>
+                            </li>
+                            <li class="nav-item">
+                              <a href="https://github.com/Yashagrahari07" class="nav-link" target="_blank">GitHUb</a>
+                            </li>
+                          </ul>
+                          <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                          </div>
+                        </nav>
+                     </div>
+                   </header>
+                </div>
+                <div class="code code2">
+                  <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=htmlmixed&width=874.25&ds=true&dsyoff=0px&dsblur=0px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=18px&lh=135%25&si=false&es=2x&wm=false&code=%253Cheader%253E%250A%2520%2520%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%253Cnav%2520class%253D%2522navbar%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522logo%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522https%253A%252F%252Fvelvetui.netlify.app%252Fassets%252Flogo.png%2522%2520alt%253D%2522Logo%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253EVELVETUI%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cul%2520class%253D%2522nav-menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522.%252Findex.html%2522%2520class%253D%2522nav-link%2522%253EHome%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522.%252Fdocs.html%2522%2520class%253D%2522nav-link%2522%253EDocumentation%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cli%2520class%253D%2522nav-item%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522https%253A%252F%252Fgithub.com%252FYashagrahari07%2522%2520class%253D%2522nav-link%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520target%253D%2522_blank%2522%253EGitHUb%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522hamburger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522bar%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522bar%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522bar%2522%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fnav%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+                    style="width: 874px; height: 730px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+              </div>
+              <div id="carousel-docs">
+                <h3 class="heading2">Carousel</h3>
+                <div class="heading3">Transform your website into a visual masterpiece with our Carousel Component. Immerse users 
+                  in a captivating journey, effortlessly navigating through stunning visuals using the sleek and intuitive left (<)
+                  and right (>) arrows. Elevate your site's allure with this dynamic and interactive Carousel for an engaging and 
+                  memorable user experience.
+                  <div class="avt-img">
+                    <div class="carousel-container">
+                      <div class="carousel-wrapper">
+                          <div class="slide slide1">
+                              <img class="slide-image" src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg" alt="Slide 1">
+                          </div>
+                          <div class="slide slide2">
+                              <img class="slide-image" src="https://images.unsplash.com/photo-1430132594682-16e1185b17c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlLG5pZ2h0fHx8fHx8MTcwNzA3MDQ1MQ&ixlib=rb-4.0.3&q=80&w=1080" alt="Slide 2">
+                          </div>
+                          <div class="slide slide3">
+                              <img class="slide-image" src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg" alt="Slide 3">
+                          </div>
+                      </div>
+                      <button class="carousel-button prev" onclick="changeSlide(-1)">❮</button>
+                      <button class="carousel-button next" onclick="changeSlide(1)">❯</button>
+                    </div>
+                  </div>
+                  <div class="code code2">
+                    <iframe
+                      src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=sharp&l=htmlmixed&width=943&ds=true&dsyoff=0px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522carousel-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522carousel-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2520slide1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522slide-image%2522%2520src%253D%2522image1%2522%2520alt%253D%2522Slide%25201%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2520slide2%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522slide-image%2522%2520src%253D%2522image2%2522%2520alt%253D%2522Slide%25202%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522slide%2520slide3%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522slide-image%2522%2520src%253D%2522image3%2522%2520alt%253D%2522Slide%25203%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel-button%2520prev%2522%2520onclick%253D%2522changeSlide%28-1%29%2522%253E%25E2%259D%25AE%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522carousel-button%2520next%2522%2520onclick%253D%2522changeSlide%281%29%2522%253E%25E2%259D%25AF%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                      style="width: 943px; height: 353px; border:0; transform: scale(1); overflow:hidden;"
+                      sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                  </div>
+                </div>
+              </div>
+              <div class="end">
+                <h1 class="heading1">Thanks for Using Velvet UI!!</h1>
+              </div>
          </div>
          
         </div>

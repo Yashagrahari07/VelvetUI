@@ -1,0 +1,106 @@
+@import 'variables.css';
+
+.btn {
+    font-size: 1.1rem;
+    font-family: var(--font-3);
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 2px 20px #00000033;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-primary {
+    background-color: var(--pri-color);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--sec-color);
+    color: white;
+}
+
+.btn-success {
+    background-color: var(--success-color);
+    color: white;
+}
+
+.btn-danger {
+    background-color: var(--danger-color);
+    color: white;
+}
+
+.btn-warning {
+    background-color: var(--warning-color);
+    color: white;
+}
+
+.btn-dark {
+    background-color: var(--drk-color);
+    color: white;
+}
+
+.btn-link {
+    background-color: transparent;
+    color: var(--lnk-color);
+    text-decoration: underline;
+}
+
+.btn-info {
+    background-color: var(--info-color);
+    color: white;
+}
+
+.btn-light {
+    background-color: var(--lgt-color);
+    color: white;
+}
+
+
+.btn-outlined-primary {
+    color: var(--pri-color);
+    border: 3px solid var(--pri-color);
+}
+
+.btn-outlined-secondary {
+    color: var(--sec-color);
+    border: 3px solid var(--sec-color);
+}
+
+.btn-outlined-success {
+    color: var(--success-color);
+    border: 3px solid var(--success-color);
+}
+
+.btn-outlined-danger {
+    color: var(--danger-color);
+    border: 3px solid var(--danger-color);
+}
+
+.btn-outlined-warning {
+    color: var(--warning-color);
+    border: 3px solid var(--warning-color);
+}
+
+.btn-outlined-dark {
+    color: var(--drk-color);
+    border: 3px solid var(--drk-color);
+}
+
+.btn-outlined-link {
+    background-color: transparent;
+    text-decoration: underline;
+    color: var(--lnk-color);
+    border: 3px solid var(--lnk-color);
+}
+
+.btn-outlined-info {
+    color: var(--info-color);
+    border: 3px solid var(--info-color);
+}
+
+.btn-outlined-light {
+    color: var(--lgt-color);
+    border: 3px solid var(--lgt-color);
+}
